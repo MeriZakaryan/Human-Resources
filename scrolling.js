@@ -246,3 +246,6 @@ document.querySelector('.other-contents').addEventListener('scroll', ()=>{
 document.querySelector('.third-page').addEventListener('scroll', ()=>{
     document.querySelector('.part-1').click()
 })
+document.querySelector('.container').addEventListener('scroll', ()=>{
+    to2ndPage()
+})
