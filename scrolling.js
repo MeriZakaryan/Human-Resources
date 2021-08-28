@@ -242,4 +242,7 @@ document.addEventListener('keydown', (event => {
 
 document.querySelector('.other-contents').addEventListener('scroll', ()=>{
     document.querySelector('.part-2').click()
+    if(document.querySelector('.second-page').style.display !== 'flex'){
+        document.querySelector('.part-1').click()
+    }
 })
