@@ -21,7 +21,6 @@ body{
 .container::-webkit-scrollbar {
     width: 0px;
 }
-
 .scroll{
     width: 2px;
     height: 100vh;
@@ -40,7 +39,7 @@ body{
     z-index: 1;
 }
 .header{
-    width: 101%;
+    width: 100%;
     height: 10%;
     display: flex;
     flex-direction: row;
@@ -353,6 +352,7 @@ span{
     transform: translateX(-100%);
     transition: 6s;
     cursor: pointer;
+    width: 101%;
 }
 .scroll-img{
     width: 50px;
