@@ -79,6 +79,7 @@ a{
     width: 101%;
     height: 82%;
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
 }
 .other-contents{
