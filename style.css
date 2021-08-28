@@ -16,6 +16,7 @@ body{
 .container{
     width: 87%;
     height: 100vh;
+    overflow: auto;
 }
 .container::-webkit-scrollbar {
     width: 0px;
